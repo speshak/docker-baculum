@@ -4,7 +4,7 @@ Deploy [Baculum Web GUI Tool](http://www.bacula.org/7.4.x-manuals/en/console/Bac
 
 # Supported tags and respective `Dockerfile` links
 
-- [`3.2`, `3.2-php5.6-apache`, `latest` (*php5.6/apache/3.2/Dockerfile*)](https://bitbucket.org/eltercera/docker-processmaker/src/50849e0f18306ad18cb397848431edf834bc1503/php5.6/apache/3.2/Dockerfile?at=master&fileviewer=file-view-default)
+- [`7.4`, `7.4.7`, `7.4.7-alpine`,`latest` (*7.4.7-alpine/Dockerfile*)](https://bitbucket.org/eltercera/docker-baculum/src/6466fac824caca42ed7c5659b6736faeb774a92f/7.4.7-alpine/Dockerfile?at=master&fileviewer=file-view-default)
 
 
 ## Start the Container
@@ -29,4 +29,4 @@ docker run -d \
 
 ### Configuration
 
-* Go to  http://hostip:9095/
+* Go to  http://hostip:9095/ and complete the wizard.
