@@ -4,7 +4,7 @@ Deploy [Baculum Web GUI Tool](http://www.bacula.org/7.4.x-manuals/en/console/Bac
 
 # Supported tags and respective `Dockerfile` links
 
-- [`7.4`, `7.4.7`, `7.4.7-alpine`,`latest` (*7.4.7-alpine/Dockerfile*)](https://bitbucket.org/eltercera/docker-baculum/src/6466fac824caca42ed7c5659b6736faeb774a92f/7.4.7-alpine/Dockerfile?at=master&fileviewer=file-view-default)
+- [`7.4`, `7.4.7`, `7.4.7-alpine`,`latest` (*7.4.7-alpine/Dockerfile*)](https://bitbucket.org/eltercera/docker-baculum/src/cfc9e6bedec0421b0ab0c90402faa3249c5425ff/7.4.7-alpine/Dockerfile?at=master&fileviewer=file-view-default)
 
 
 ## Start the Container
