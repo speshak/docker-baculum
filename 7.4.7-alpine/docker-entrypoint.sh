@@ -12,8 +12,8 @@ fi
 
 if ! [ -f /usr/share/baculum/protected/Data/baculum.users ];then
 
-    [[ -z $BACULUM_USER ]] || BACULUM_USER=admin
-    [[ -z $BACULUM_PASSWD ]] || BACULUM_PASSWD=admin
+    [[ ! -z $BACULUM_USER ]] || BACULUM_USER=admin
+    [[ ! -z $BACULUM_PASSWD ]] || BACULUM_PASSWD=admin
     
     echo $BACULUM_PASSWD | htpasswd -i -c /usr/share/baculum/protected/Data/baculum.users $BACULUM_USER
     

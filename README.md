@@ -23,7 +23,7 @@ docker run -d \
     -p 9095:9095 \
     -e "BACULUM_USER=some_user" \
     -e "BACULUM_PASSWD=some_passwd" \
-    -v ../bacula/bconsole.conf:/etc/bacula/bconsole.conf
+    -v ../bacula/bconsole.conf:/etc/bacula/bconsole.conf \
     eltercera/docker-baculum
 ```
 
